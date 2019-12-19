@@ -16,6 +16,7 @@ class Index extends \Magento\Framework\App\Action\Action
 
 	public function execute()
 	{
+		die("Module Installed successfully");
 		return $this->_pageFactory->create();
 	}
 }
