@@ -1,0 +1,26 @@
+{
+    "name": "jiva/module-helloworld",
+    "description": "",
+
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "Jiva License",
+    "authors": [
+        {
+          "name": "Pabitra",
+          "email": "pabitra.rout@jivainfotech.com",
+          "homepage": "https://www.jivainfotech.com",
+          "role": "Leader"
+        }
+    ],
+
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Jiva\\HelloWorld\\": ""
+        }
+    }
+
+}
